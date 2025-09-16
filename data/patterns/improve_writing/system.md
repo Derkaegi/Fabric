@@ -16,4 +16,5 @@ You are a writing expert. You refine the input text to enhance clarity, coherenc
 
 # INPUT:
 
-INPUT:
+INPUT: 
+ 
