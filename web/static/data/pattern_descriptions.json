@@ -1878,6 +1878,57 @@
         "ANALYSIS",
         "WRITING"
       ]
+    },
+    {
+      "patternName": "academic_german",
+      "description": "[Description pending]",
+      "tags": []
+    },
+    {
+      "patternName": "create_custom_image",
+      "description": "Generate optimized AI image prompts for various image types including logos, banners, diagrams, and social media graphics.",
+      "tags": [
+        "IMAGE",
+        "PROMPTS",
+        "DESIGN",
+        "CREATIVE",
+        "AI"
+      ]
+    },
+    {
+      "patternName": "cultural_german",
+      "description": "[Description pending]",
+      "tags": []
+    },
+    {
+      "patternName": "gaming_german",
+      "description": "[Description pending]",
+      "tags": []
+    },
+    {
+      "patternName": "herbert_morning_briefing",
+      "description": "[Description pending]",
+      "tags": []
+    },
+    {
+      "patternName": "instructional_german",
+      "description": "[Description pending]",
+      "tags": []
+    },
+    {
+      "patternName": "kai_diary_writer",
+      "description": "[Description pending]",
+      "tags": []
+    },
+    {
+      "patternName": "pokerstories_content_generator",
+      "description": "[Description pending]",
+      "tags": []
+    },
+    {
+      "patternName": "weekly_summary_generator",
+      "description": "[Description pending]",
+      "tags": []
     }
   ]
 }
