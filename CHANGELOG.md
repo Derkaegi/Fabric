@@ -1,5 +1,84 @@
 # Changelog
 
+## v1.4.319 (2025-09-30)
+
+### PR [#1783](https://github.com/danielmiessler/Fabric/pull/1783) by [ksylvan](https://github.com/ksylvan): Update anthropic-sdk-go and add claude-sonnet-4-5
+
+- Feat: update `anthropic-sdk-go` to v1.13.0 and add new model
+- Upgrade `anthropic-sdk-go` to version 1.13.0
+- Add `ModelClaudeSonnet4_5` to supported models list
+
+## v1.4.318 (2025-09-24)
+
+### PR [#1779](https://github.com/danielmiessler/Fabric/pull/1779) by [ksylvan](https://github.com/ksylvan): Improve pt-BR Translation - Thanks to @JuracyAmerico
+
+- Fix: improve PT-BR translation naturalness and fluency
+- Replace "dos" with "entre" for better preposition usage
+- Add definite articles where natural in Portuguese
+- Clarify "configurações padrão" instead of just "padrões"
+- Keep technical terms visible like "padrões/patterns"
+
+## v1.4.317 (2025-09-21)
+
+### PR [#1778](https://github.com/danielmiessler/Fabric/pull/1778) by [ksylvan](https://github.com/ksylvan): Add Portuguese Language Variants Support (pt-BR and pt-PT)
+
+- Add Brazilian Portuguese (pt-BR) translation file
+- Add European Portuguese (pt-PT) translation file
+- Implement BCP 47 locale normalization system
+- Create fallback chain for language variants
+- Add default variant mapping for Portuguese
+
+## v1.4.316 (2025-09-20)
+
+### PR [#1777](https://github.com/danielmiessler/Fabric/pull/1777) by [ksylvan](https://github.com/ksylvan): chore: remove garble installation from release workflow
+
+- Remove garble installation step from release workflow
+- Add comment for GoReleaser config file reference link
+- The original idea of adding garble was to make it pass
+  virus scanning during version upgrades for Winget, and
+  this was a failed experiment.
+
+## v1.4.315 (2025-09-20)
+
+### Direct commits
+
+- Chore: update CI workflow and simplify goreleaser build configuration
+
+- Add changelog database to git tracking
+
+- Remove unnecessary goreleaser comments
+- Add version metadata to default build
+
+- Rename windows build from garbled to standard
+- Remove garble obfuscation from windows build
+
+- Standardize ldflags across all build targets
+- Inject version info during compilation
+
+## v1.4.314 (2025-09-17)
+
+### PR [#1774](https://github.com/danielmiessler/Fabric/pull/1774) by [ksylvan](https://github.com/ksylvan): Migrate Azure client to openai-go/azure and default API version
+
+- Migrated Azure client to openai-go/azure and default API version
+- Switched Azure OpenAI config to openai-go azure helpers and now require API key and base URL during configuration
+- Set default API version to 2024-05-01-preview when unspecified
+- Updated dependencies to support azure client and authentication flow
+- Removed latest-tag boundary logic from changelog walker and simplified version assignment by matching commit messages directly
+
+### Direct commits
+
+- Fix: One-time fix for CHANGELOG and changelog cache db
+
+## v1.4.313 (2025-09-16)
+
+### PR [#1773](https://github.com/danielmiessler/Fabric/pull/1773) by [ksylvan](https://github.com/ksylvan): Add Garble Obfuscation for Windows Builds
+
+- Add garble obfuscation for Windows builds and fix changelog generation
+- Add garble tool installation to release workflow
+- Configure garble obfuscation for Windows builds only
+- Fix changelog walker to handle unreleased commits
+- Implement boundary detection for released vs unreleased commits
+
 ## v1.4.312 (2025-09-14)
 
 ### PR [#1769](https://github.com/danielmiessler/Fabric/pull/1769) by [ksylvan](https://github.com/ksylvan): Go 1.25.1 Upgrade & Critical SDK Updates
@@ -103,7 +182,7 @@
 - Replace with correct div structure and styling
 - Use proper Warp image URL from brand assets
 
-- Add 'Special thanks to:' text and platform availability
+- Add "Special thanks to:" text and platform availability
 - Maintains proper spacing and alignment
 - Fix unclosed div tag in README causing display issues
 

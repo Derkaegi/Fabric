@@ -16,6 +16,12 @@ schema = 3
   [mod."dario.cat/mergo"]
     version = "v1.0.2"
     hash = "sha256-p6jdiHlLEfZES8vJnDywG4aVzIe16p0CU6iglglIweA="
+  [mod."github.com/Azure/azure-sdk-for-go/sdk/azcore"]
+    version = "v1.19.1"
+    hash = "sha256-+cax/D2o8biQuuZkPTwTRECDPE3Ci25il9iVBcOiLC4="
+  [mod."github.com/Azure/azure-sdk-for-go/sdk/internal"]
+    version = "v1.11.2"
+    hash = "sha256-O4Vo6D/fus3Qhs/Te644+jh2LfiG5PpiMkW0YWIbLCs="
   [mod."github.com/Microsoft/go-winio"]
     version = "v0.6.2"
     hash = "sha256-tVNWDUMILZbJvarcl/E7tpSnkn7urqgSHa2Eaka5vSU="
@@ -26,8 +32,8 @@ schema = 3
     version = "v1.3.3"
     hash = "sha256-jv7ZshpSd7FZzKKN6hqlUgiR8C3y85zNIS/hq7g76Ho="
   [mod."github.com/anthropics/anthropic-sdk-go"]
-    version = "v1.12.0"
-    hash = "sha256-Oy6/7s6KHguTg2fmVGD3m0HxcaqQn1mDCUMwD5vq/eE="
+    version = "v1.13.0"
+    hash = "sha256-Mbi37aubaObndySkfO3tE6c8bUJaJugG1E8IM4AxW84="
   [mod."github.com/araddon/dateparse"]
     version = "v0.0.0-20210429162001-6b43995a97de"
     hash = "sha256-UuX84naeRGMsFOgIgRoBHG5sNy1CzBkWPKmd6VbLwFw="

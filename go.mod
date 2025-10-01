@@ -3,7 +3,7 @@ module github.com/danielmiessler/fabric
 go 1.25.1
 
 require (
-	github.com/anthropics/anthropic-sdk-go v1.12.0
+	github.com/anthropics/anthropic-sdk-go v1.13.0
 	github.com/atotto/clipboard v0.1.4
 	github.com/aws/aws-sdk-go-v2 v1.39.0
 	github.com/aws/aws-sdk-go-v2/config v1.31.8
@@ -35,6 +35,8 @@ require (
 )
 
 require (
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.19.1 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.11.2 // indirect
 	github.com/google/go-cmp v0.7.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 )
